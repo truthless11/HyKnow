@@ -1,6 +1,6 @@
 # HyKnow
 
-This is the code for paper "HyKnow: End-to-End Task-Oriented Dialog Modeling with Hybrid Knowledge Management".
+This is the code for paper [HyKnow: End-to-End Task-Oriented Dialog Modeling with Hybrid Knowledge Management](http://arxiv.org/abs/2105.06041).
 
 If you use any source code or dataset included in this repo in your work, please cite this paper:
 
@@ -9,6 +9,7 @@ If you use any source code or dataset included in this repo in your work, please
   title={HyKnow: End-to-End Task-Oriented Dialog Modeling with Hybrid Knowledge Management},
   author={Gao, Silin and Takanobu, Ryuichi and Peng, Wei and Liu, Qun and Huang, Minlie},
   booktitle={ACL-IJCNLP: Findings},
+  pages={1591--1602},
   year={2021}
 }
 ```
@@ -29,6 +30,8 @@ python -m nltk.downloader stopwords punkt wordnet
 1. Raw dataset: [modified MultiWOZ 2.1](https://github.com/alexa/alexa-with-dstc9-track1-dataset)
 
 2. Our preprocessed dataset can be downloaded from [this link](https://drive.google.com/file/d/1a-JnNEGkd_2HhQsF1wLQ1BE2D_cJ375B), please unzip the file under the root directory and data is placed in ``data/``.
+
+3. Pretrained Glove embeddings can be downloaded from [this link](https://drive.google.com/file/d/1-JOiwWLqydNdA3mptHNv5ZWKTC2gkcAj/view?usp=drivesdk), please unzip the file and place it in ``data/``.
 
 ## Implementations of HyKnow
 We build HyKnow in both single-decoder and multi-decoder belief state decoding implementations.
